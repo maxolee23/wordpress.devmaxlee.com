@@ -12,6 +12,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftp://giowm1172.siteground.biz/dev.devmaxlee.com/public_html/wp-content/themes/Divi
+        ftp-server: ftp://giowm1172.siteground.biz/devmaxlee.com/public_html/wp-content/themes/Divi
         ftp-username:  max@devmaxlee.com
         ftp-password: ${{ secrets.FTP_PASSWORD }}
